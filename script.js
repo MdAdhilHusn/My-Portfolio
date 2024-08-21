@@ -1,3 +1,8 @@
+document.addEventListener('contextmenu',function(e){
+    e.preventDefault();
+});
+
+
 document.querySelectorAll('.menu-bar div').forEach(item => {
     item.addEventListener('click', event => {
         // Get the class name of the clicked item
