@@ -164,6 +164,22 @@ html{
   height: 572px;
   overflow: hidden;
 }
+
+.quotes {
+  position: absolute;
+  left: 110px;
+  top: 580px;
+  display: inline-block;
+  color: rgb(255, 247, 18);
+  font-size: 20px;
+  font-weight: 600;
+  width: 500px;
+  height: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+
 .group-parent {
   position: absolute;
   top: 127px;
@@ -1734,6 +1750,22 @@ button.submit:active {
   height: 143px;
   overflow: hidden;
 }
+
+.quotes {
+  position: absolute;
+  left: 27.5px;
+  top: 145px;
+  display: inline-block;
+  color: rgb(255, 247, 18);
+  font-size: 5px;
+  font-weight: 600;
+  width: 125px;
+  height: 2.5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+
 .group-parent {
   position: absolute;
   top: 32px;
