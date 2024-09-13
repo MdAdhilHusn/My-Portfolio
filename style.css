@@ -1766,6 +1766,21 @@ button.submit:active {
   
 }
 
+.msg {
+  position: absolute;
+  left: 210px;
+  top: 5px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.46);
+  font-size: 4px;
+  font-weight: 600;
+  width: 125px;
+  height: 2.5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+
 .group-parent {
   position: absolute;
   top: 32px;
