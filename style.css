@@ -51,6 +51,7 @@ html{
   height: 121px;
 }
 
+
 .i-am-uxui span {
   position: relative;
   font-weight: bold;
@@ -68,7 +69,7 @@ html{
   background-color: #000;
   border-left: 2px solid #fff;
   right: -8px;
-  animation: cursor .8s infinite , typing 25s steps(14) infinite ;
+  animation: cursor .6s infinite , typing 20s steps(14) infinite ;
 }
 
 @keyframes cursor{
@@ -77,24 +78,22 @@ html{
   }
 }
 @keyframes words{
-  0%,25%{
+  0%,35%{
     content: "UI/UX Designer" ;
   }
-  26%,50%{
+  36%,65%{
     content: "Digital Marketer" ;
   }
-  51%,75%{
+  66%,100%{
     content: "Independent Designer" ;
   }
-  76%,100%{
-    content: "Blogger" ;
-  }
+ 
 }
 @keyframes typing{
-  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%,100%{
+  16%,24%,48%,56%,80%,88%{
     width: 0;
   }
-  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+  8%,32%,40%,64%,72%,96%{
     width: calc(100% + 8px);
   }
 }
@@ -1688,7 +1687,8 @@ button.submit:active {
 }
 
 
-.i-am-uxui span {
+
+  .i-am-uxui span {
   position: relative;
   font-weight: bold;
 }
@@ -1705,7 +1705,7 @@ button.submit:active {
   background-color: #000;
   border-left: 2px solid #fff;
   right: -8px;
-  animation: cursor .8s infinite , typing 25s steps(14) infinite ;
+  animation: cursor .6s infinite , typing 20s steps(14) infinite ;
 }
 
 @keyframes cursor{
@@ -1714,24 +1714,22 @@ button.submit:active {
   }
 }
 @keyframes words{
-  0%,25%{
+  0%,35%{
     content: "UI/UX Designer" ;
   }
-  26%,50%{
+  36%,65%{
     content: "Digital Marketer" ;
   }
-  51%,75%{
+  66%,100%{
     content: "Independent Designer" ;
   }
-  76%,100%{
-    content: "Blogger" ;
-  }
+ 
 }
 @keyframes typing{
-  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%,100%{
+  16%,24%,48%,56%,80%,88%{
     width: 0;
   }
-  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+  8%,32%,40%,64%,72%,96%{
     width: calc(100% + 8px);
   }
 }
