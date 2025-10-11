@@ -2803,7 +2803,7 @@ carousel-container {
   left: 5.25px;
   font-size: 7px;
   color: #fff;
-  width: 44.25px;
+  width: 54.25px;
   height: 8px;
 }
 .tamil-nadu-india {
@@ -2881,8 +2881,7 @@ carousel-container {
   width: 82.75px;
 }
 .during-my-secondary,
-.secondary-education-x,
-.tamil-nadu-india1 {
+.secondary-education-x{
   position: absolute;
   left: 5.25px;
   font-weight: 600;
@@ -2894,10 +2893,18 @@ carousel-container {
   font-size: 5px;
   width: 69.75px;
 }
-.during-my-secondary,
-.tamil-nadu-india1 {
+.during-my-secondary {
   top: 42.725px;
   width: 39.25px;
+}
+.tamil-nadu-india1 {
+  position: absolute;
+  display: inline-block;
+  font-weight: 600;
+  top: 175.9px;
+  left: 95px;
+  width: 157px;
+  height: 24.7px;
 }
 .during-my-secondary {
   top: 50.5px;
@@ -3279,11 +3286,14 @@ button.submit:active {
   left: 97.5px;
   width: 24.4px;
 }
-.contact6,
-.education6 {
+.contact6{
   left: 165.75px;
   width: 29.025px;
 }
+.education6{
+  left: 725px;
+  width: 116.1px;
+} 
 .contact6 {
   left: 207.75px;
   width: 21.225px;
@@ -3334,3 +3344,4 @@ button.submit:active {
 
 
 }
+
