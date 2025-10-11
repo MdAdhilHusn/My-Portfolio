@@ -52,6 +52,7 @@ html{
 }
 
 
+
 .i-am-uxui span {
   position: relative;
   font-weight: bold;
@@ -97,6 +98,9 @@ html{
     width: calc(100% + 8px);
   }
 }
+
+
+
 
 
 .group-frame,
@@ -214,6 +218,7 @@ html{
   overflow: hidden;
 }
 
+
 .quotes {
   position: absolute;
   left: 110px;
@@ -228,6 +233,9 @@ html{
   text-align: center;
   
 }
+
+
+
 
 .group-parent {
   position: absolute;
@@ -1103,7 +1111,7 @@ carousel-container {
   left: 21px;
   font-size: 28px;
   color: #fff;
-  width: 177px;
+  width: 250px;
   height: 32px;
 }
 .tamil-nadu-india {
@@ -1178,11 +1186,10 @@ carousel-container {
   top: 146.2px;
   left: 21px;
   font-size: 20px;
-  width: 331px;
+  width: 345px;
 }
 .during-my-secondary,
-.secondary-education-x,
-.tamil-nadu-india1 {
+.secondary-education-x {
   position: absolute;
   left: 21px;
   font-weight: 600;
@@ -1194,11 +1201,20 @@ carousel-container {
   font-size: 20px;
   width: 279px;
 }
-.during-my-secondary,
-.tamil-nadu-india1 {
+.during-my-secondary {
   top: 170.9px;
   width: 157px;
 }
+.tamil-nadu-india1 {
+  position: absolute;
+  display: inline-block;
+  font-weight: 600;
+  top: 175.9px;
+  left: 95px;
+  width: 157px;
+  height: 24.7px;
+}
+
 .during-my-secondary {
   top: 202px;
   width: 360px;
@@ -1230,7 +1246,7 @@ carousel-container {
   left: 21px;
   font-weight: 600;
   display: inline-block;
-  width: 157px;
+  width: 197px;
   height: 24.7px;
 }
 .bachelor-of-technology,
@@ -1244,7 +1260,7 @@ carousel-container {
   top: 42.1px;
   left: 21px;
   font-size: 20px;
-  width: 232px;
+  width: 376px;
   height: 24.7px;
 }
 .group-child37 {
@@ -1563,17 +1579,23 @@ button.submit:active {
   width: 66.4px;
   height: 22px;
 }
+
+
 .contact6,
 .education6,
 .my-work6 {
   left: 390px;
   width: 97.6px;
 }
-.contact6,
-.education6 {
+.contact6{
   left: 663px;
   width: 116.1px;
 }
+.education6{
+  left: 725px;
+  width: 116.1px;
+}
+
 .contact6 {
   left: 831px;
   width: 84.9px;
@@ -1688,7 +1710,7 @@ button.submit:active {
 
 
 
-  .i-am-uxui span {
+.i-am-uxui span {
   position: relative;
   font-weight: bold;
 }
@@ -1733,6 +1755,7 @@ button.submit:active {
     width: calc(100% + 8px);
   }
 }
+
 
 
 .group-frame,
@@ -1864,7 +1887,6 @@ button.submit:active {
   text-align: center;
   
 }
-
 .msg {
   position: absolute;
   left: 210px;
@@ -1879,6 +1901,7 @@ button.submit:active {
   text-align: center;
   
 }
+
 
 .group-parent {
   position: absolute;
