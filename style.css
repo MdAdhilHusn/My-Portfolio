@@ -2901,10 +2901,10 @@ carousel-container {
   position: absolute;
   display: inline-block;
   font-weight: 600;
-  top: 175.9px;
-  left: 95px;
-  width: 157px;
-  height: 24.7px;
+  top: 45.725px;
+  left: 5.25px;
+  width: 69.75px;
+  height: 6.175px;
 }
 .during-my-secondary {
   top: 50.5px;
@@ -3344,4 +3344,5 @@ button.submit:active {
 
 
 }
+
 
